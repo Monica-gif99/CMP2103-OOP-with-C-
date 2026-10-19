@@ -6,6 +6,7 @@ Example output:
 Income: 1.5e+06
 Loan amount: 500000
 Collateral value: 800000
+                 
                    Polymorphism
 Polymorphism means that the same interface can produce different behaviour for different objects. In polymorphism.cpp, FinancialRecord declares evaluateRisk() as a virtual function. LoanRecord and CreditRecord override the function to display different messages.
 A pointer to FinancialRecord refers first to a LoanRecord object and then to a CreditRecord object. When evaluateRisk() is called, the version matching the actual object runs. This demonstrates runtime polymorphism.
